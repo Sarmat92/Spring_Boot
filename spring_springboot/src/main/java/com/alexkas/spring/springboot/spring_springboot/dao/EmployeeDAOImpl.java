@@ -1,6 +1,5 @@
 package com.alexkas.spring.springboot.spring_springboot.dao;
 
-
 import com.alexkas.spring.springboot.spring_springboot.entity.Employee;
 //import org.hibernate.Session;
 //import org.hibernate.query.Query;
