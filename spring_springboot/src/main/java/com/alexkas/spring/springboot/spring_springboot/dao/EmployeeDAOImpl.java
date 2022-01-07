@@ -34,7 +34,7 @@ public class EmployeeDAOImpl implements EmployeeDAO{
     }
 
     @Override
-    public Employee getEmployee(int id) {
+    public Employee getEmployeeById(int id) {
 //        Session session = entityManager.unwrap(Session.class);
 //        return session.get(Employee.class, id);
         Employee employee = entityManager.find(Employee.class, id);
@@ -42,7 +42,7 @@ public class EmployeeDAOImpl implements EmployeeDAO{
     }
 
     @Override
-    public void deleteEmployee(int id) {
+    public void deleteEmployeeById(int id) {
 //        Session session = entityManager.unwrap(Session.class);
 //        Query<Employee> query = session.createQuery("delete from Employee where id =:employeeId");
 //        query.setParameter("employeeId", id);
